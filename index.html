@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">S.Likkas</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon">Home</i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon">Profile</i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon">Education</i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon">Skills</i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon">Experience</i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#languages" class="nav__link">
+                <i class="bx bx-award nav__icon">Languages</i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#qualifications" class="nav__link">
+                <i class="bx bx-link-external nav__icon nav__icon-center"
+                  >Professional Qualifications</i
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img
+                  src="assets/img/Stef.jpg"
+                  alt="picture"
+                  class="home__img"
+                />
+
+                <h1 class="home__title">Stefanos <b>Likkas</b></h1>
+                <h3 class="home__profession">Legal Consultant</h3>
+                <div>
+                  <a
+                    download=""
+                    href="assets/pdf/Likkas_EUCV.pdf"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+
+                <div class="home__address bd-grid">
+                  <span class="home__information">
+                    <i class="bx bx-map home__icon"></i> Βούλα, Αττικής
+                  </span>
+                  <span class="home__information">
+                    <i class="bx bx-envelope home__icon"></i> likkas@yahoo.com
+                  </span>
+                  <span class="home__information">
+                    <i class="bx bx-phone home__icon"></i> +306948348707
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/likkas/?originalSubdomain=gr"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> @likkas
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+              Experienced lawyer specialised in international tax law
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Master of Science in Business for Lawyersa cum laude)
+                  </h3>
+                  <span class="education__studies"
+                    >ALBA Graduate Business School (GREECE). Grade: 94%</span
+                  >
+                  <span class="education__year">Sep. 2008 - Feb. 2010 </span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Master of Law (LLM) in International and European Trade Law
+                  </h3>
+                  <span class="education__studies"
+                    >Amsterdam Law School, Universiteit van Amsterdam
+                    (NETHERLANDS)</span
+                  >
+                  <span class="education__year">Sep. 2004 - Jul. 2005</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Law Degree</h3>
+                  <span class="education__studies"
+                    >Democritus University of Thrace (GREECE)</span
+                  >
+                  <span class="education__year">Sep. 1998 - Mar. 2004</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    High-school diploma in humanities
+                  </h3>
+                  <span class="education__studies"
+                    >Voula 1 Lykeion, Athens (GREECE); grade: 19.2/20</span
+                  >
+                  <span class="education__year">Sep. 1995 - Jul. 1998</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== Professional Qualifications  ==========-->
+
+          <section class="education section" id="qualifications">
+            <h2 class="section-title">Professional Qualifications</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Appointed lawyer at the Athens Appeal Courts
+                  </h3>
+                  <span class="education__studies"></span>
+                  <span class="education__year">Sep. 2010 </span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Admission to Athens Law Bar Association
+                  </h3>
+                  <span class="education__studies"
+                    >Upon successful completion of an 18-month mandatory
+                    practice and bar exams</span
+                  >
+                  <span class="education__year">Sep. 2007</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== Other Training  ==========-->
+
+          <section class="education section" id="certificates">
+            <h2 class="section-title">Other Training</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Summer School course in “European Data Protection Law"
+                  </h3>
+                  <span class="education__studies"
+                    >Brussels Privacy Hub, Vrije Universiteit Brussel, Bruxelles
+                    (BELGIUM)</span
+                  >
+                  <span class="education__year">Jun. 2019 </span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Training as Data Protection Officer (DPO)
+                  </h3>
+                  <span class="education__studies"
+                    >40 hour intensive training, Eurotraining (GREECE)</span
+                  >
+                  <span class="education__year">May 2019</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Five-day training on “Transfer Pricing Thin Capitalisation"
+                  </h3>
+                  <span class="education__studies"
+                    >Abpm training centre, Athens (GREECE))</span
+                  >
+                  <span class="education__year">May 2012 </span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Two-day course on Transfer Pricing
+                  </h3>
+                  <span class="education__studies"
+                    >Grant Thornton, Athens (GREECE)
+                  </span>
+                  <span class="education__year">Apr. 2009 </span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Training Cyberspace Camp on IT Law
+                  </h3>
+                  <span class="education__studies"
+                    >Computer Law Association (ITechLaw), Amsterdam
+                    (NETHERLANDS)
+                  </span>
+                  <span class="education__year">Nov. 2004</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title underline">Experience</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    Freelance lawyer specialised in tax and administrative law,
+                    Athens (GREECE)
+                  </h3>
+                  <div class="experience__company">Oct. 2018 - present</div>
+                  <p class="experience__description">
+                    My legal freelance activities have been covering the
+                    following areas: administrative procedures and litigation,
+                    contract negotiations and drafting, collections, and
+                    litigation. Inter alia, I have been assisting companies
+                    seeking to minimise their compliance liabilities by
+                    providing services of corporate housekeeping and tax
+                    compliance.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    In-house lawyer at Dtas S.A. tax consultancy, Athens
+                    (GREECE)
+                  </h3>
+                  <div class="experience__company">Oct. 2008 - Oct 2018</div>
+                  <p class="experience__description">
+                    In the Athens-based consultancy Dtas S.A., my main areas of
+                    responsibility as senior legal advisor included corporate
+                    governance and tax law, with a focus on VAT, International
+                    Tax Law, Base Erosion and Profit Shifting, as well as
+                    Transfer Pricing. My portfolio also covered data protection
+                    (GDPR), immigration law, and contract law. For instance, I
+                    had full oversight over the clients’ assigned affairs and
+                    representation vis-à-vis various public authorities, inter
+                    alia as regards data protection (including undertaking
+                    audits, training employees, preparing company policy
+                    documents and filings to the DPA, and negotiating data
+                    processing agreements with clients and suppliers); transfer
+                    pricing (including preparing annual Transfer
+                    Pricing-notification files for international clients,
+                    training employees and accountants); VAT (including
+                    overseeing clients’ and suppliers’ invoicing under EU rules,
+                    providing recommendations on recoverable input VAT and VAT
+                    refunds, and representing clients vis-a-vis government
+                    authorities); International Tax Law (including applying the
+                    bilateral Conventions to avoid double taxation and
+                    minimising corporate clients’ tax liability with practical
+                    guidance on business arrangements, also by directly
+                    representing them vis-à-vis the local authorities and being
+                    instrumental in overturning detrimental tax determinations
+                    by the tax authority); and company law (including drafting
+                    Board of Directors decisions, delegation of powers and
+                    statutory amendments, coordinating with accounting and tax
+                    departments to prepare annual FS and tax returns).
+                    <br />
+                    <br />
+                    <span class="referee">Employer/Referee:</span> <br />
+                    Maria Asimakopoulos, CEO. E-mail:
+                    <a href="">masimakopoulos@dtas.gr</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line short"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    Legal Practice at Periklis Maniatopoulos studio, Athens
+                    (GREECE)
+                  </h3>
+                  <div class="experience__company">Feb. 2007 - Jul. 2008</div>
+                  <p class="experience__description">
+                    Working for Mr. Maniatopoulos, attorney appointed by the
+                    Greek High Court, I could practice in the field of civil
+                    law, commercial contracts and Intellectual Property.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    Internship at Giorgos Floros studio, Athens (GREECE)
+                  </h3>
+                  <div class="experience__company">Sep. 2004 - Dec. 2006</div>
+                  <p class="experience__description">
+                    My legal internship focussed mostly on civil and commercial
+                    law.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+
+          <!--========== REFERENCES ==========-->
+          <section class="references section" id="references"></section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section" id="languages">
+            <h2 class="section-title underline">Languages</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content">
+                <div class="languages__name">
+                  <h3>English:</h3>
+                  <p>Cambridge Proficiency in English; <b>grade: B.</b></p>
+                </div>
+                <div class="languages__name">
+                  <h3>Italian:</h3>
+                  <p>
+                    Certificate of Italian Language (CELI 3);<b>grade: A.</b>
+                  </p>
+                </div>
+                <div class="languages__name">
+                  <h3>French:</h3>
+                  <p>Certificate of Advanced French; Sorbonne I, Paris.</p>
+                </div>
+                <div class="languages__name">
+                  <h3>Dutch:</h3>
+                  <p>
+                    Certificate of Dutch as a Foreign Language (CNaVT);
+                    Educatief Startbekwaam.
+                  </p>
+                </div>
+                <div class="languages__name">
+                  <h3>Russian:</h3>
+                  <p>Independent</p>
+                </div>
+              </ul>
+            </div>
+          </section>
+
+          <!-- ========= SKILLS ============= -->
+          <section class="skills section" id="skills">
+            <h2 class="section-title underline">Skills</h2>
+
+            <div class="skill__container">
+              <div class="skills__content">
+                <div class="skills__name">Teamwork skills:</div>
+                <p class="skills__text">
+                  I worked for over 10 years (e.g. at DTAS S.A. tax consultancy,
+                  Athens) in interdisciplinary teams of around 5 people,
+                  covering areas such as accounting and tax law, for the
+                  management and successful completion of corporate clients’
+                  projects and legal cases.
+                </p>
+              </div>
+              <div class="skills__content">
+                <div class="skills__name">Leadership skills:</div>
+                <p class="skills__text">
+                  4-year experience as Team Leader on legal projects (including
+                  mergers, liquidations, and Transfer Pricing), coordinating
+                  teams of 4-6 people inside and outside my organisation; (b)
+                  experience in representing the Court authority and managing
+                  polling stations and polling committees for over 10 times,
+                  safeguarding the fairness and legality of voting for thousands
+                  of Greek voters in Athens.
+                </p>
+              </div>
+              <div class="skills__content">
+                <div class="skills__name">ICT skills:</div>
+                <p class="skills__text">Microsoft Office; LATEX.</p>
+              </div>
+            </div>
+          </section>
+          <!--========== INTERESTS ==========-->
+          <section class="interests section"></section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
